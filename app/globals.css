@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bubble-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.bubble-container > * {
+  position: relative;
+  z-index: 1;
+}
+
